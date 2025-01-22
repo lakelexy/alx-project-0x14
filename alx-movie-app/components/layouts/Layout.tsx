@@ -1,13 +1,7 @@
 import React from "react";
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
-  return (
-    <div>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </div>
-  );
+const Layout: React.FC = () => {
+  return <div>Layout Component</div>;
 };
 
 export default Layout;
